@@ -4,6 +4,10 @@
 
 HTML/CSSを学び直すために進めることにした
 
+## 作ったもの置き場
+
+https://y-tsuzaki.github.io/html5css3_modern_cording/index.html
+
 ## Part1 スタンダードレイアウト
 
 - position:absoluteの起点は親要素、変えるためにposition:relativeを使う
