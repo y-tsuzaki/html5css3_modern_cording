@@ -227,7 +227,7 @@ a:active {
   width: 315px;
   height: 360px;
   padding: 210px 15px 0;
-  box-shadow: 6px 6px 8px -4px rgba(0,0,0,0.15);
+  box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
   transition: opacity 0.15s;
   margin-bottom: 30px;
   position: relative;
@@ -236,19 +236,19 @@ a:active {
   opacity: 0.8;
 }
 .article-box:nth-of-type(odd) {
-  float: left
+  float: left;
 }
 .article-box:nth-of-type(even) {
-  float: right
+  float: right;
 }
-.article-box .title{
+.article-box .title {
   margin-top: 30px;
   color: #555;
   font-size: 1.4rem;
   line-height: 1.6;
 }
 .article-box .desc {
-  margin-top:5px;
+  margin-top: 5px;
   color: #333;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -270,7 +270,7 @@ a:active {
 }
 .article-box .image {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
 }
@@ -279,7 +279,7 @@ a:active {
   list-style-type: none;
   counter-reset: ranking;
 }
-.ranking .ranking-item{
+.ranking .ranking-item {
   margin-top: 15px;
 }
 
@@ -294,7 +294,7 @@ a:active {
 }
 
 .ranking-item .image {
-  width:55px;
+  width: 55px;
   height: 55px;
 }
 .ranking-item .text {
@@ -320,11 +320,11 @@ a:active {
   transform: rotate(45deg);
 }
 
-.ranking .ranking-item:nth-of-type(1) .order ,
-.ranking .ranking-item:nth-of-type(2) .order ,
+.ranking .ranking-item:nth-of-type(1) .order,
+.ranking .ranking-item:nth-of-type(2) .order,
 .ranking .ranking-item:nth-of-type(3) .order {
-  border:none;
-  color:#fff;
+  border: none;
+  color: #fff;
   font-weight: normal;
   line-height: 18px;
 }
@@ -337,11 +337,11 @@ a:active {
 .ranking .ranking-item:nth-of-type(3) .order {
   background-color: #a0541a;
 }
-.ranking .order::before{
+.ranking .order::before {
   content: counter(ranking);
   counter-increment: ranking;
   display: inline-block;
-  font-size: 1.0rem;
+  font-size: 1rem;
   transform: rotate(-45deg);
 }
 
@@ -371,10 +371,10 @@ a:active {
 .documents > li ul > li {
   margin-top: 15px;
   padding-left: 10px;
-  background: url('../images/arrow.gif') no-repeat left center;
+  background: url("../images/arrow.gif") no-repeat left center;
 }
 
-.documents a:hover{
+.documents a:hover {
   text-decoration: underline;
 }
 
@@ -401,14 +401,14 @@ a:active {
   color: #fff;
   cursor: pointer;
 }
-.search-box .text{
+.search-box .text {
   margin-top: 12px;
 }
 
-.footer{
+.footer {
   width: 100%;
-  padding: 20px  0 30px;
-  background: #2d3d54 url('../images/bg-footer.gif');
+  padding: 20px 0 30px;
+  background: #2d3d54 url("../images/bg-footer.gif");
   color: #fff;
 }
 
@@ -417,7 +417,7 @@ a:active {
   margin: 0 auto;
   text-align: right;
   font-size: 0;
-} 
+}
 
 .horizontal-list .horizontal-item {
   display: inline-block;
@@ -425,7 +425,7 @@ a:active {
   letter-spacing: 1px;
 }
 
-.horizontal-list .horizontal-item a{
+.horizontal-list .horizontal-item a {
   border-bottom: 1px dashed #777;
   color: #bbb;
   font-size: 1.1rem;
